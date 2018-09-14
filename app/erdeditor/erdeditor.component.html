@@ -1,0 +1,14 @@
+  <table style="width:100%;height:100%">
+    <tr>
+      <td>
+          <textarea [(ngModel)]="markup" placeholder="name" (ngModelChange)="onMarkupChange()" rows=24 cols=80>
+          </textarea>
+          <br/>
+          <textarea [(ngModel)]="errorDisplay" rows=4 cols=80 class="errorTextArea">
+          </textarea>
+      </td>
+      <td>
+          <div id="graph" style="text-align: center;width:100%;height:100%;"></div>
+      </td>
+    </tr>
+  </table>

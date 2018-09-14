@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "vendor/bootstrap/css/bootstrap.min.css";
+@import "css/one-page-wonder.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+/*
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/one-page-wonder.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+*/

@@ -1,0 +1,12 @@
+textarea {
+	border: 3px solid #cccccc;
+	padding: 5px;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.errorTextArea {
+    color: red;
+}
