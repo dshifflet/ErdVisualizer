@@ -196,7 +196,7 @@ graph [label=<<FONT POINT-SIZE="20">${name}</FONT>>,
                         rln.Cardinality = Cardinality.ManyToMany;
                         break;
                     default:
-                        throw new Error(`Unknown Cardinality: '${cardinality}'`);
+                        throw new Error(`Unknown Cardinality: '${cardinality}' (Options are 1:1, 1:*, *:*)`);
                 }
                 db.Relationships.push(rln);
             }
